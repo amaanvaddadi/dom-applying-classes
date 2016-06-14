@@ -7,7 +7,8 @@ function start () {
   // The first example is done for you. Uncomment the line below and reload the browser.
   one()
   two()
-three()    
+three()   
+makeVisible()
   // Your turn! Create a new function called `two`, then call it from here.
 }
 
@@ -16,7 +17,7 @@ function one () {
   var one = document.getElementById('one')
 
   // Next, we apply a new CSS class to it:
-  one.classList.add('blue')
+.classList.add('blue')
 }
 
 // CREATE FUNCTION two HERE
@@ -24,7 +25,7 @@ function one () {
 function two () {
 
   var two = document.getElementById('two')
-  two.classList.add('green')
+.classList.add('green')
 }
 
 // CREATE FUNCTION three HERE
@@ -33,10 +34,17 @@ function two () {
 function three () {
 
   var three = document.getElementById('three')
-  three.classList.add('red')
+.classList.add('red')
 }
 
 
 
 // CREATE FUNCTION makeVisible HERE
 
+function makeVisible(){
+    
+var makeVisible = document.getElementById('invisible')
+
+.classList.add('visible')
+    
+}
